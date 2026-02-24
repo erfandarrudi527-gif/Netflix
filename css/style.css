@@ -38,4 +38,10 @@ body {
   border-radius: 5px;
   color: white;
   padding: 5px;
+}
+
+.inpEmail {
+  background-color: rgba(0, 0, 0, 0.274);
+  font-size: 25px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
