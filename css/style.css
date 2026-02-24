@@ -50,5 +50,11 @@ body {
 .inpEmail {
   background-color: rgba(0, 0, 0, 0.274);
   font-size: 25px;
+  border-radius: 5px;
   color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-60%);
 }/*# sourceMappingURL=style.css.map */
