@@ -53,6 +53,7 @@ body {
   border-radius: 5px;
   color: white;
   position: absolute;
+<<<<<<< HEAD
   top: 78%;
   left: 45%;
   transform: -50%, -50%;
@@ -103,4 +104,9 @@ body {
   top: 75%;
   left: 45%;
   transform: -50%, -50%;
+=======
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+>>>>>>> 7f8c91be422973e03bfadddcd970311788547f2e
 }/*# sourceMappingURL=style.css.map */
