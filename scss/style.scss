@@ -12,5 +12,29 @@
 }
 body{
     background-color: black;
- 
+  color: white;
+}
+.signin{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 25px;
+    margin-left: 92%;
+    border: none;
+    border-radius: 5px;
+ margin-top: -55px;
+ padding: 5px;
+}
+.select{
+    background-color: rgba(0, 0, 0, 0.596);
+    // margin-left:87%;
+    // margin-top: 20px;
+    justify-content: end;
+    display: flex;
+    // margin-bottom: 0px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
 }
