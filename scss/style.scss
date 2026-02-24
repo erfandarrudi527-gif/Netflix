@@ -44,12 +44,53 @@ body {
 }
 .inpEmail {
   background-color: rgba(0, 0, 0, 0.274);
-  font-size: 25px;
+  font-size: 30px;
   border-radius: 5px;
   color: white;
   position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translateX(-50%);
- transform: translateY(-60%);
+  top: 80%;
+  left: 45%;
+  transform:(-50%,-50%);
+  padding: 8px;
 }
+.button{
+ background-color: red;
+  font-size: 30px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 64%;
+  padding: 10px;
+  transform:(-50%,-50%);
+  border: none;
+  border-radius: 5px;
+
+}
+.span1{
+color: white;
+font-size: 25px;
+font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  transform:(-50%,-50%);
+}
+.span2{
+color: white;
+font-size: 18px;
+ position: absolute;
+  top: 72%;
+  left: 45%;
+  transform:(-50%,-50%);
+}
+.span3{
+   color: white;
+font-size: 18px;
+ position: absolute;
+  top: 77%;
+  left: 45%;
+  transform:(-50%,-50%); 
+}
+
+
