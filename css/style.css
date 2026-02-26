@@ -49,58 +49,120 @@ body {
 
 .inpEmail {
   background-color: rgba(0, 0, 0, 0.274);
-  font-size: 25px;
+  font-size: 30px;
   border-radius: 5px;
   color: white;
   position: absolute;
-  top: 78%;
+  top: 80%;
   left: 45%;
   transform: -50%, -50%;
-  padding:5px 18px;
-   width: 310px;
-   height: 60px;
+  padding: 8px;
+  width: 380px;
+  height: 59px;
 }
 
 .button {
   background-color: red;
-  font-size: 25px;
-  border-radius: 1px;
+  font-size: 30px;
+  border-radius: 5px;
   color: white;
   position: absolute;
-  top: 78%;
-  left: 63%;
-  padding: 15px 15px;
+  top: 80%;
+  left: 67%;
+  padding: 10px;
   transform: -50%, -50%;
   border: none;
-  border-radius: 15px;
-  width: 190px;
-  height: 65px;
+  border-radius: 5px;
+  width: 200px;
+  height: 59px;
 }
 
 .span1 {
   color: white;
   font-size: 45px;
- font-weight: bolder;
+  font-weight: bold;
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 45%;
   transform: -50%, -50%;
 }
 
 .span2 {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   position: absolute;
-  top: 70%;
+  top: 71%;
   left: 45%;
   transform: -50%, -50%;
 }
 
 .span3 {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 77%;
+  left: 45%;
+  transform: -50%, -50%;
+}
+
+.span4 {
+  background-color: rgba(255, 255, 255, 0.39);
+  color: white;
+  font-size: 30px;
+}
+
+.card {
+  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+  color: white;
+  border: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  width: 100%;
+  height: 200px;
+}
+
+.card-span {
+  color: white;
+  font-size: 20px;
+}
+
+.card1 {
+  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+  color: white;
+  border: 5px;
+  display: grid;
+  gap: 25px;
+  width: 100%;
+  height: 200px;
+}
+
+.card2 {
+  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+  color: white;
+  border: 5px;
+  display: grid;
+  gap: 25px;
+  width: 100%;
+  height: 200px;
+}
+
+.card3 {
+  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+  color: white;
+  border: 5px;
+  display: grid;
+  gap: 25px;
+  width: 100%;
+  height: 200px;
+}
+
+.card4 {
+  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+  color: white;
+  border: 5px;
+  display: grid;
+  gap: 25px;
+  width: 100%;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
