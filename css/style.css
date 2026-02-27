@@ -112,7 +112,6 @@ body {
 }
 
 .card {
-  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
   color: white;
   border: 5px;
   display: grid;
@@ -128,7 +127,6 @@ body {
 }
 
 .card-section {
-  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
   color: white;
   border: 5px;
   display: grid;
