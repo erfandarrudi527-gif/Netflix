@@ -57,14 +57,14 @@ body {
   width: 380px;
   height: 59px;
 }
-.button {
+.button1 {
   background-color: red;
   font-size: 30px;
   border-radius: 5px;
   color: white;
   position: absolute;
   top: 80%;
-  left: 67%;
+  left: 68%;
   padding: 10px;
   transform: (-50%, -50%);
   border: none;
@@ -193,19 +193,44 @@ body {
 // card
 // footer
 .footer{
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 16px;
+    margin-bottom: 24px;
 }
-a {
-  color: white;
-  text-decoration: none;
+.footer a {
+  color: rgba(255, 255, 255, 0.692);
+  text-decoration: underline;
+  transition: color 0.3s;
   font-size: 25px;
+}
+.footer a:hover { color: #524f4f; }
+.inp{
+    background-color: rgba(0, 0, 0, 0.274);
+    font-size: 20px;
+    margin-bottom: 105px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    width: 1800px;
+    height: 100px;
+}
+.button{
+    background-color: red;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: 77%;
+    padding: 10px;
+    transform: (-50%, -50%);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 59px;
 }
 // footer
 // faq
