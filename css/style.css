@@ -182,49 +182,80 @@ body {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px 16px;
-  margin-bottom: 24px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .footer a {
   color: rgba(255, 255, 255, 0.692);
   text-decoration: underline;
   transition: color 0.3s;
-  font-size: 25px;
-}
-
-.footer a:hover {
-  color: #524f4f;
+  font-size: 18px;
+  top: 25px;
+  bottom: 25px;
 }
 
 .inp {
-  background-color: rgba(0, 0, 0, 0.274);
-  font-size: 20px;
-  margin-bottom: 105px;
-  border-radius: 5px;
-  color: white;
-  position: absolute;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  padding: 8px;
-  width: 1800px;
-  height: 100px;
+  padding: 50px 4%;
+  margin-bottom: 25px;
 }
 
-.button {
-  background-color: red;
-  font-size: 30px;
-  border-radius: 5px;
-  color: white;
-  position: absolute;
-  left: 77%;
-  padding: 10px;
-  transform: -50%, -50%;
+.inp p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form input {
+  flex: 1;
+  width: 590px;
+  height: 60px;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 25px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form input:focus {
+  border-color: #fff;
+}
+
+form button {
+  padding: 16px 28px;
+  background: red;
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   width: 200px;
-  height: 59px;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+form button:hover {
+  background: #c2070f;
 }
 
 .faq {
