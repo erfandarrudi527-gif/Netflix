@@ -127,7 +127,7 @@ body {
   font-size: 20px;
 }
 
-.card1 {
+.card-section {
   background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
   color: white;
   border: 5px;
@@ -137,32 +137,14 @@ body {
   height: 200px;
 }
 
-.card2 {
-  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+.footer-li {
   color: white;
-  border: 5px;
-  display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.card3 {
-  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
+a {
   color: white;
-  border: 5px;
-  display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
-}
-
-.card4 {
-  background: linear-gradient(143deg, rgb(63, 94, 251) 0%, rgb(72, 93, 244) 5%, rgba(52, 65, 207, 0.87) 42%, rgb(252, 70, 107) 100%);
-  color: white;
-  border: 5px;
-  display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
+  text-decoration: none;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
