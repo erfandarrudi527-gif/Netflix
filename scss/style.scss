@@ -5,7 +5,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .header {
-  background-image: url("/asstes/Untitled.png");
+  background-image: url("/asstes/2.png");
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
   width: 380px;
   height: 59px;
 }
-.button1 {
+.submit {
   background-color: red;
   font-size: 30px;
   border-radius: 5px;
@@ -103,92 +103,185 @@ body {
   font-size: 30px;
 }
 // header
+// aslder
+.aslider-section {
+  padding: 40px 4%;
+}
+
+.aslider-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #e5e5e5;
+}
+
+/* wrapper نسبی برای دکمه‌های چپ/راست */
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* track اسلایدر — اینجاست که scroll اتفاق می‌افته */
+.aslider {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;       /* Firefox */
+  flex: 1;
+  padding: 10px 0;
+}
+.aslider::-webkit-scrollbar {
+  display: none;               /* Chrome/Safari */
+}
+
+/* هر آیتم اسلایدر */
+.slide-item {
+  flex: 0 0 auto;
+  width: 180px;
+  position: relative;
+  cursor: pointer;
+  padding-left: 55px;          /* فضا برای عدد بزرگ */
+  transition: transform 0.3s;
+}
+.slide-item:first-child {
+  padding-left: 0;
+}
+.slide-item:hover {
+  transform: scale(1.06);
+  z-index: 10;
+}
+
+/* عکس پوستر */
+.slide-item img {
+  width: 120px;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  margin-left: auto;
+}
+
+
+
+.slide-item.no-img {
+  width: 180px;
+}
+.slide-item.no-img::after {
+  content: "";
+  display: block;
+  width: 120px;
+  aspect-ratio: 2/3;
+  background: #1a1a1a;
+  border-radius: 6px;
+  margin-left: auto;
+}
+// slider
 // card
 .card {
   color: white;
   border: 5px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
   width: 100%;
-  height: 200px;
+  height: 290px;
+  margin-bottom: 55px ;
 }
 .card-span {
   color: white;
-  font-size: 20px;
+  margin-bottom: 55px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.card h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 5px;
 }
 .card-section {
   color: white;
   border: 5px;
   display: grid;
-  gap: 25px;
   width: 100%;
-  height: 200px;
+  height: 290px;
+  margin-left: 25px;
 }
 .card1 {
   background: linear-gradient(
     143deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(72, 93, 244, 1) 5%,
-    rgba(52, 65, 207, 0.87) 42%,
-    rgba(252, 70, 107, 1) 100%
+ #1c1a34 0%,
+    #1a1e3e 5%,
+    #1c1932 42%,
+    #210e17 100%
   );
+  // margin-left: 25ex;
+  align-items: center;
+  justify-content: center;
   color: white;
   border: 5px;
+  border-radius: 20px;
   display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
-    margin-bottom: 500px;
+  width: 350px;
+  height: 290px;
 }
 .card2 {
   background: linear-gradient(
     143deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(72, 93, 244, 1) 5%,
-    rgba(52, 65, 207, 0.87) 42%,
-    rgba(252, 70, 107, 1) 100%
+    #1c1a34 0%,
+    #1a1e3e 5%,
+    #1c1932 42%,
+    #210e17 100%
   );
+  align-items: center;
+  justify-content: center;
   color: white;
   border: 5px;
+  border-radius: 20px;
   display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
-    margin-bottom: 500px;
+  width: 350px;
+  height: 290px;
 }
 .card3 {
   background: linear-gradient(
     143deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(72, 93, 244, 1) 5%,
-    rgba(52, 65, 207, 0.87) 42%,
-    rgba(252, 70, 107, 1) 100%
+ #1c1a34 0%,
+    #1a1e3e 5%,
+    #1c1932 42%,
+    #210e17 100%
   );
   color: white;
   border: 5px;
-  gap: 25px;
   display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
-    margin-bottom: 500px;
+  border-radius: 20px;
+  width: 350px;
+  height: 290px;
+    align-items: center;
+  justify-content: center;
 }
 .card4 {
   background: linear-gradient(
     143deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(72, 93, 244, 1) 5%,
-    rgba(52, 65, 207, 0.87) 42%,
-    rgba(252, 70, 107, 1) 100%
+  #1c1a34 0%,
+    #1a1e3e 5%,
+    #1c1932 42%,
+    #210e17 100%
   );
+  align-items: center;
+  justify-content: center;
   color: white;
   border: 5px;
   display: grid;
-  gap: 25px;
-  width: 100%;
-  height: 200px;
-  margin-bottom: 500px;
+  border-radius: 20px;
+  width: 350px;
+  height: 290px;
 }
 // card
 // footer
@@ -268,7 +361,6 @@ body {
 
     .faq {
     padding: 50px 4%;
-    border-top: 8px solid #222;
   }
 
   .faq h2 {
@@ -328,3 +420,32 @@ body {
 
   }
 //  faq
+// responsive
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav {
+    padding: 16px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .inpEmail,
+  .submit {
+    width: 100%;
+  }
+}
